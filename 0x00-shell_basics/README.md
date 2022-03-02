@@ -1,0 +1,1 @@
+script makes the file run like a program file
