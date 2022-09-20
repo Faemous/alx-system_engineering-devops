@@ -1,1 +1,1 @@
-a Readme file that describes the function of script created
+Readme file

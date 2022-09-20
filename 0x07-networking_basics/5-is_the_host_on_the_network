@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Script
-if [ "$#" -lt "1" ]
+# Send ICMPs Request to an IP to see the time to response
+
+if [ "${1}" ]
 then
-    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+	ping -c 5 "${1}"
 else
-    ping "$1" -c 5
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 fi
